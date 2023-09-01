@@ -1,5 +1,7 @@
 import paho.mqtt.client as mqtt
 import time
+import PySimpleGUI as sg
+
 
 def on_connect(client, userdata, flags, rc):
     if rc == 0:
